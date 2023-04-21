@@ -1,9 +1,12 @@
 <?php
 include_once 'Viaje.php';
+include_once 'Pasajero.php';
+include_once 'Responsable.php';
 //instancias de la clase viaje x defecto
+/*
 $viaje1 = new Viaje('f31n','villa traful', 8);
 $viaje2 = new Viaje('qwert','villa gessell', 5);
-$viaje3 = new Viaje('gfdsa','villa regina', 6);
+$viaje3 = new Viaje('gfdsa','villa regina', 6);*/
 //creamos e instanciamos arreglos de pasajeros
 $p1=array('nombre'=>"Dinora" , 'apellido'=>"Juarez", 'DNI'=>908765);
 $p2=array('nombre'=>"juan" , 'apellido'=>"perez", 'DNI'=>8079672);
